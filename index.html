@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Lev3_4_projekt_js-einführung_einkommensteuer-berechnung</title>
+</head>
+<body>
+    <h1>Einkommen­steuer-Berechnung</h1>
+    
+    <form action="">
+
+        <label for="">Jahr</label>
+            <select name="" id="jahr">
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+            </select>
+
+        <label for="">zu versteuerndes Einkommen in Euro</label>
+            <input type="number" name="" id="einkommen">
+            
+        <label for="">Art der Veranlagung</label>
+            <select name="" id="veranlagung">
+                <option value="1">Einzelveranlagung</option>
+                <option value="2">Zusammenveranlagung</option>
+            </select>
+        
+            <input type="button" value="Berechne" onclick="berechne()">
+    </form>
+    <div id="ergebnis"></div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+                  
